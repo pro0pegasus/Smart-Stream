@@ -38,7 +38,7 @@ export function errorComponent(res){
     refreshFetch.addEventListener('click', ()=>{
         fetchChannels();
         card.style.display = 'none';
-    })
+        })
     }
 
     return card;
