@@ -36,8 +36,6 @@
 
     <main class=" min-h-screen">
       <div id="error-div"></div>
-      <div id="loader" class="w-[100px] h-[100px] rounded-full border-[12px] border-[#f3f3f3] border-t-[12px] border-t-gray-600 animate-spin"></div>
-
       <div id="app-container" class="grid grid-cols-[400px_1fr] h-screen transition-[grid-template-columns] duration-300 ease-in-out">
         <aside id="sidebar" class="flex flex-col bg-[#1e1e2d] text-white p-4 gap-4 overflow-hidden transition-[width]">
           <div class="flex justify-between items-center ">
@@ -48,18 +46,27 @@
               <input type="search" id="filter" placeholder="Recherche par chaine ou category" class="border-none w-full text-black rounded-lg px-2 py-0.5 placeholder:text-gray-400 focus:border-purple focus:bg-white focus:ring-4 focus:ring-purple-500/50">
             </label>
 
-            <div id="categories-channels" ></div>
-
+          </div>
+          <div>
+            <button id="back-btn" class="hidden cursor-pointer"><i class="fa-solid fa-left-long"></i></button>
+            <div id="loader" class="mt-20 mx-auto w-[100px] h-[100px] rounded-full border-[12px] border-[#f3f3f3] border-t-[12px] border-t-gray-600 animate-spin"></div>
+            <div id="categories-channels" class="rounded-lg pt-2 px-2 max-h-122 overflow-y-auto"></div>
+            <div id="channels-container" class="rounded-lg pt-2 px-2 max-h-122 overflow-y-auto"></div>
           </div>
         </aside>
 
-        <div id="player-content" class="flex flex-col bg-[#0f0f1a] text-white p-6 gap-4"></div>
+        <div class="flex flex-col gap-4 p-6 min-w-0">
+          <section id="player-content" class="w-full aspect-video bg-black rounded-xl overflow-hidden relative"></section>
+          <section id="channel-description" class="bg-[#050A1E] boder border-purple rounded-xl p-5 text-white">
+
+          </section>
+        </div>
 
       </div>
       
     </main>
 
-    <footer class="border-t border-[#1E2A4A] bg-[#070D20]">
+    <footer class="border-t border-[#1E2A4A] bg-[#070D20] mt-20">
       <p class="text-center text-white">Smart Stream - projet pédagogique</p>
     </footer>
 >>>>>>> 2c5d291bf21a1e784ae649a4877d4d1e13d06b17
