@@ -1,5 +1,6 @@
 import './style.css'
 import { fetchChannels } from './services/api.js';
+import { eventContainer } from './events/channelEvents.js';
 
 // function lisntners(){
 //   const refreshFetch = document.getElementById('refresh-fetch');
@@ -15,6 +16,8 @@ import { fetchChannels } from './services/api.js';
 
 function app(){
   fetchChannels();
+  eventContainer();
+  categoriesChannels()
 }
 
 

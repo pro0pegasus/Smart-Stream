@@ -2,15 +2,61 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>smart-stream</title>
     <link href="/src/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e91b5e6bd8.js"></script>
   </head>
-  <body>
-    <div id="error-div"></div>
-    <div id="loader" class="w-[100px] h-[100px] rounded-full border-[12px] border-[#f3f3f3] border-t-[12px] border-t-gray-600 animate-spin"></div>
+  <body class="bg-[#080F25]">
+    <header class="sticky top-0 z-20 bg-[#050A1E] text-white border-b border-[1E2A4A] backdrop-blur">
+      <div class="flex flex-row items-center justify-between gap-6 px-8">
+        <a href="/index.html">
+          <img src="src/assets/ss-logo.png" class="h-25">
+        </a>
+        <!-- <div>
+          <label>
+            <input type="search" id="filter" placeholder="Rechercher une chaine ou category" />
+          </label>
+        </div> -->
+
+        <nav class="">
+          <ul class="flex flex-row gap-6">
+            <a href="/index.html"><li><i class="fa-solid fa-house"></i></li></a>
+            <a href="/index.html"><li><i class="fa-solid fa-tv"></i></li></a>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class=" min-h-screen">
+      <div id="error-div"></div>
+      <div id="loader" class="w-[100px] h-[100px] rounded-full border-[12px] border-[#f3f3f3] border-t-[12px] border-t-gray-600 animate-spin"></div>
+
+      <div id="app-container" class="grid grid-cols-[400px_1fr] h-screen transition-[grid-template-columns] duration-300 ease-in-out">
+        <aside id="sidebar" class="flex flex-col bg-[#1e1e2d] text-white p-4 gap-4 overflow-hidden transition-[width]">
+          <div class="flex justify-between items-center ">
+            <button id="toggleBtn" class="text-2xl cursor-pointer">☰</button>
+          </div>
+          <div class="bg-white border-none rounded-lg">
+            <label>
+              <input type="search" id="filter" placeholder="Recherche par chaine ou category" class="border-none w-full text-black rounded-lg px-2 py-0.5 placeholder:text-gray-400 focus:border-purple focus:bg-white focus:ring-4 focus:ring-purple-500/50">
+            </label>
+
+            <div id="categories-channels" ></div>
+
+          </div>
+        </aside>
+
+        <div id="player-content" class="flex flex-col bg-[#0f0f1a] text-white p-6 gap-4"></div>
+
+      </div>
+      
+    </main>
+
+    <footer class="border-t border-[#1E2A4A] bg-[#070D20]">
+      <p class="text-center text-white">Smart Stream - projet pédagogique</p>
+    </footer>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
