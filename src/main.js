@@ -1,23 +1,25 @@
 import './style.css'
 import { fetchChannels } from './services/api.js';
-import { eventContainer } from './events/channelEvents.js';
+import { eventContainer, categoryEvent, channelSelectionEvent } from './events/channelEvents.js';
+// import { channelCard } from './ui/channelCard.js';
+import { channelCategories } from './ui/sidebar.js';
+import { channelDescription } from './ui/preview.js';
 
-// function lisntners(){
-//   const refreshFetch = document.getElementById('refresh-fetch');
 
-//   if(refreshFetch){
-//     refreshFetch.addEventListener('click', ()=>{
-//       fetchChannels();
-//       console.log('clicked')
-//     })
-//   }
 
-// }
-
-function app(){
-  fetchChannels();
+async function app(){
+  const channels = await fetchChannels();
   eventContainer();
-  categoriesChannels()
+
+  if(channels){
+    // channelCard(channels)
+    channelCategories(channels);
+    categoryEvent(channels)
+    channelDescription(channels);
+  }
+
+  
+  
 }
 
 
