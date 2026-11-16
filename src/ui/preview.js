@@ -17,29 +17,37 @@ export function channelPreview(channel){
 
 export function channelDescription(channel){
 
-    const epg = channel.epg || {};
-
     channelDescriotionContainer.innerHTML = '';
 
     const description = `
-        <div class="flex flex-col gap-4">
-            <div class="flex items-center justify-between">
-                <div>
-                    <h2 class="text-xl font-bold">${channel.name}</h2>
+        <div class="flex flex-col gap-2">
+            <div class="flex flex-col w-full items-center justify-between gap-4">
+                <div class="w-full">
+                    <h3 class="text-xl text-gray-400 font-bold">${channel.name}</h3>
                     <p class="text-sm text-gray-400 mt-1">${channel.category}</p>
 
                     <span class="text-sm text-gray-400 font-semibold">
-                    <i class="fa-solid fa-circle text-xs mr-1"></i>
+                    <i class="fa-solid fa-circle" style="color: rgb(99, 230, 190);"></i>
                     LIVE
                     <span>
                 </div>
 
-                <div class="border-t border-[##1E2A4A] pt-4">
+                <div class="border-t border-[##1E2A4A] pt-4 w-full">
                     <h3 class="text-sm text-gray-400 mb-2">
                         NOW PLAYING
                     </h3>
 
+                    <div class="flex items-center justify-between gap-4">
+                        <h3 class="text-gray-400">
+                            ${channel.epg.currentProgram}
+                        </h3>
+
+                        <p>${channel.epg.startTime} - ${channel.epg.endTime}</p>
+                    </div>
+
                     
+                    <div class="bg-purple-500 h-2 rounded-full" style=width:"${channel.epg.progressPercentage}%"></div>
+                    <p class="text-xs text-gray-500 mt-5 text-right"> ${channel.epg.progressPercentage}% Completed</p>
                 </div>
 
             </div>

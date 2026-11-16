@@ -31,14 +31,14 @@
 
     <main class=" min-h-screen">
       <div id="error-div"></div>
-      <div id="app-container" class="grid grid-cols-[400px_1fr] h-screen transition-[grid-template-columns] duration-300 ease-in-out">
+      <div id="app-container" class="grid grid-cols-[400px_1fr] min-h-screen transition-[grid-template-columns] duration-300 ease-in-out">
         <aside id="sidebar" class="flex flex-col bg-[#1e1e2d] text-white p-4 gap-4 overflow-hidden transition-[width]">
           <div class="flex justify-between items-center ">
-            <button id="toggleBtn" class="text-2xl cursor-pointer">☰</button>
+            <button id="toggleBtn" class="text-2xl cursor-pointer">Menu</button>
           </div>
           <div class="bg-white border-none rounded-lg">
             <label>
-              <input type="search" id="filter" placeholder="Recherche par chaine ou category" class="border-none w-full text-black rounded-lg px-2 py-0.5 placeholder:text-gray-400 focus:border-purple focus:bg-white focus:ring-4 focus:ring-purple-500/50">
+              <input type="search" id="filter" placeholder="Recherche par chaine..." class="border w-full text-black rounded-lg px-2 py-0.5 placeholder:text-gray-400 transition focus:border-purple-500 focus:bg-white focus:ring-4 focus:ring-purple-500/50">
             </label>
 
           </div>
@@ -61,7 +61,7 @@
       
     </main>
 
-    <footer class="border-t border-[#1E2A4A] bg-[#070D20] mt-20">
+    <footer class="border-t border-[#1E2A4A] bg-[#070D20]">
       <p class="text-center text-white">Smart Stream - projet pédagogique</p>
     </footer>
     <script type="module" src="/src/main.js"></script>

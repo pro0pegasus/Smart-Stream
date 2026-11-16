@@ -15,7 +15,7 @@ export function errorComponent(res){
     const card = document.getElementById('error-div')
 
     card.innerHTML = `
-        <div class="flex flex-col items-center text-center p-6 my-4 mx-auto max-w-md border border-red-300 bg-red-50 text-red-900 rounded-lg shadow-sm font-sans">
+        <div class="flex flex-col items-center text-center p-6 my-4 mx-auto max-w-md border border-red-300 bg-red-50 text-red-900 rounded-lg shadow-sm">
             <button id="err-card" class="border rounded-lg px-1 font-semibold hover:bg-gray-400">
                 <i class="fa-solid fa-x text-xs hover:text-white"></i>
             </button>
