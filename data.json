@@ -1,0 +1,323 @@
+
+[
+  {
+    "id": "1",
+    "channelNumber": "1057",
+    "name": "FR - DISCOVERY ID FHD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://via.placeholder.com/60x60?text=Discovery",
+    "previewImage": "https://via.placeholder.com/800x450?text=Discovery+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Habitations en péril",
+      "startTime": "20:50",
+      "endTime": "21:45",
+      "progressPercentage": 65
+    }
+  },
+  {
+    "id": "2",
+    "channelNumber": "1058",
+    "name": "FR - TLC FHD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://via.placeholder.com/60x60?text=TLC",
+    "previewImage": "https://via.placeholder.com/800x450?text=TLC+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "La maison de mes rêves",
+      "startTime": "20:30",
+      "endTime": "21:20",
+      "progressPercentage": 40
+    }
+  },
+  {
+    "id": "3",
+    "channelNumber": "1067",
+    "name": "FR - RMC DECOUVERTE FHD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://via.placeholder.com/60x60?text=RMC",
+    "previewImage": "https://via.placeholder.com/800x450?text=RMC+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Hors de contrôle : Les megastructures",
+      "startTime": "21:05",
+      "endTime": "22:00",
+      "progressPercentage": 20
+    }
+  },
+  {
+    "id": "4",
+    "channelNumber": "1068",
+    "name": "FR - NATIONAL GEOGRAPHIC FHD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://via.placeholder.com/60x60?text=NatGeo",
+    "previewImage": "https://via.placeholder.com/800x450?text=National+Geographic",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Les secrets de la nature",
+      "startTime": "20:15",
+      "endTime": "21:30",
+      "progressPercentage": 75
+    }
+  },
+  {
+    "id": "5",
+    "channelNumber": "1069",
+    "name": "FR - ANIMAL PLANET FHD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://via.placeholder.com/60x60?text=Animal",
+    "previewImage": "https://via.placeholder.com/800x450?text=Animal+Planet",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Le royaume animal",
+      "startTime": "20:40",
+      "endTime": "21:40",
+      "progressPercentage": 50
+    }
+  },
+  {
+    "id": "6",
+    "channelNumber": "1101",
+    "name": "FR - TF1 FHD",
+    "category": "GENERALISTE",
+    "logo": "https://via.placeholder.com/60x60?text=TF1",
+    "previewImage": "https://via.placeholder.com/800x450?text=TF1+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Journal de 20 heures",
+      "startTime": "20:00",
+      "endTime": "20:45",
+      "progressPercentage": 90
+    }
+  },
+  {
+    "id": "7",
+    "channelNumber": "1102",
+    "name": "FR - FRANCE 2 FHD",
+    "category": "GENERALISTE",
+    "logo": "https://via.placeholder.com/60x60?text=France2",
+    "previewImage": "https://via.placeholder.com/800x450?text=France+2",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Envoyé spécial",
+      "startTime": "20:45",
+      "endTime": "22:15",
+      "progressPercentage": 35
+    }
+  },
+  {
+    "id": "8",
+    "channelNumber": "1103",
+    "name": "FR - M6 FHD",
+    "category": "GENERALISTE",
+    "logo": "https://via.placeholder.com/60x60?text=M6",
+    "previewImage": "https://via.placeholder.com/800x450?text=M6+Show",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Top Chef",
+      "startTime": "21:10",
+      "endTime": "23:00",
+      "progressPercentage": 25
+    }
+  },
+  {
+    "id": "9",
+    "channelNumber": "1104",
+    "name": "FR - ARTE FHD",
+    "category": "CULTURE",
+    "logo": "https://via.placeholder.com/60x60?text=ARTE",
+    "previewImage": "https://via.placeholder.com/800x450?text=ARTE+Culture",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Le monde en mouvement",
+      "startTime": "20:55",
+      "endTime": "21:50",
+      "progressPercentage": 55
+    }
+  },
+  {
+    "id": "10",
+    "channelNumber": "1105",
+    "name": "FR - FRANCE 5 FHD",
+    "category": "CULTURE",
+    "logo": "https://via.placeholder.com/60x60?text=France5",
+    "previewImage": "https://via.placeholder.com/800x450?text=France+5",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "C dans l'air",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "progressPercentage": 80
+    }
+  },
+  {
+    "id": "11",
+    "channelNumber": "1201",
+    "name": "FR - CANAL+ FHD",
+    "category": "CINEMA",
+    "logo": "https://via.placeholder.com/60x60?text=Canal",
+    "previewImage": "https://via.placeholder.com/800x450?text=Canal+Cinema",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Le grand film",
+      "startTime": "21:00",
+      "endTime": "22:45",
+      "progressPercentage": 30
+    }
+  },
+  {
+    "id": "12",
+    "channelNumber": "1202",
+    "name": "FR - CINEMA PREMIER FHD",
+    "category": "CINEMA",
+    "logo": "https://via.placeholder.com/60x60?text=Cinema",
+    "previewImage": "https://via.placeholder.com/800x450?text=Cinema+Premier",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Mission impossible",
+      "startTime": "20:30",
+      "endTime": "22:30",
+      "progressPercentage": 60
+    }
+  },
+  {
+    "id": "13",
+    "channelNumber": "1301",
+    "name": "FR - BEIN SPORTS 1 FHD",
+    "category": "SPORT",
+    "logo": "https://via.placeholder.com/60x60?text=Bein1",
+    "previewImage": "https://via.placeholder.com/800x450?text=Bein+Sports",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Football : Match en direct",
+      "startTime": "20:00",
+      "endTime": "22:00",
+      "progressPercentage": 70
+    }
+  },
+  {
+    "id": "14",
+    "channelNumber": "1302",
+    "name": "FR - EUROSPORT 1 FHD",
+    "category": "SPORT",
+    "logo": "https://via.placeholder.com/60x60?text=Eurosport",
+    "previewImage": "https://via.placeholder.com/800x450?text=Eurosport",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Tennis : Tournoi international",
+      "startTime": "19:30",
+      "endTime": "21:30",
+      "progressPercentage": 85
+    }
+  },
+  {
+    "id": "15",
+    "channelNumber": "1303",
+    "name": "FR - L'EQUIPE FHD",
+    "category": "SPORT",
+    "logo": "https://via.placeholder.com/60x60?text=LEquipe",
+    "previewImage": "https://via.placeholder.com/800x450?text=LEquipe+Sport",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "L'Équipe du soir",
+      "startTime": "20:45",
+      "endTime": "22:00",
+      "progressPercentage": 45
+    }
+  },
+  {
+    "id": "16",
+    "channelNumber": "1401",
+    "name": "FR - GULLI FHD",
+    "category": "JEUNESSE",
+    "logo": "https://via.placeholder.com/60x60?text=Gulli",
+    "previewImage": "https://via.placeholder.com/800x450?text=Gulli+Kids",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Les aventures de héros",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "progressPercentage": 50
+    }
+  },
+  {
+    "id": "17",
+    "channelNumber": "1402",
+    "name": "FR - DISNEY CHANNEL FHD",
+    "category": "JEUNESSE",
+    "logo": "https://via.placeholder.com/60x60?text=Disney",
+    "previewImage": "https://via.placeholder.com/800x450?text=Disney+Channel",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Mickey et ses amis",
+      "startTime": "20:15",
+      "endTime": "21:15",
+      "progressPercentage": 65
+    }
+  },
+  {
+    "id": "18",
+    "channelNumber": "1501",
+    "name": "FR - BFMTV FHD",
+    "category": "ACTUALITES",
+    "logo": "https://via.placeholder.com/60x60?text=BFMTV",
+    "previewImage": "https://via.placeholder.com/800x450?text=BFMTV+News",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Le journal en direct",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "progressPercentage": 95
+    }
+  },
+  {
+    "id": "19",
+    "channelNumber": "1502",
+    "name": "FR - LCI FHD",
+    "category": "ACTUALITES",
+    "logo": "https://via.placeholder.com/60x60?text=LCI",
+    "previewImage": "https://via.placeholder.com/800x450?text=LCI+News",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "24 heures en questions",
+      "startTime": "20:30",
+      "endTime": "21:30",
+      "progressPercentage": 35
+    }
+  },
+  {
+    "id": "20",
+    "channelNumber": "1601",
+    "name": "FR - MTV FHD",
+    "category": "MUSIQUE",
+    "logo": "https://via.placeholder.com/60x60?text=MTV",
+    "previewImage": "https://via.placeholder.com/800x450?text=MTV+Music",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Music Hits",
+      "startTime": "20:00",
+      "endTime": "21:30",
+      "progressPercentage": 55
+    }
+  }
+]
