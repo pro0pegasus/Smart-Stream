@@ -20,7 +20,6 @@ export async function fetchChannels(){
         // }
 
         const data = await res.json()
-        setStorage('channels', data);
         return data;
 
     } catch(error){

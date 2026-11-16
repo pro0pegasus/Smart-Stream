@@ -1,6 +1,6 @@
 import './style.css'
 import { fetchChannels } from './services/api.js';
-import { eventContainer, categoryEvent, channelSelectionEvent } from './events/channelEvents.js';
+import { eventContainer, categoryEvent, channelSelectionEvent, searchEvent } from './events/channelEvents.js';
 // import { channelCard } from './ui/channelCard.js';
 import { channelCategories } from './ui/sidebar.js';
 import { channelDescription } from './ui/preview.js';
@@ -15,10 +15,10 @@ async function app(){
     // channelCard(channels)
     channelCategories(channels);
     categoryEvent(channels)
-    channelDescription(channels);
-  }
-
-  
+    // channelDescription(channels);
+    channelSelectionEvent(channels);
+    searchEvent(channels);
+  }  
   
 }
 
