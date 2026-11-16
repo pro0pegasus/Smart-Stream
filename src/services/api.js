@@ -1,6 +1,7 @@
 import { errorMessage } from "../ui/error.js"
 import { loader } from "../ui/loading.js";
 import { errorComponent } from "../ui/error.js";
+import { setStorage } from "../storage/storage.js";
 
 
 export async function fetchChannels(){
@@ -19,7 +20,11 @@ export async function fetchChannels(){
         // }
 
         const data = await res.json()
+<<<<<<< HEAD
+        setStorage('channels', data);
+=======
         console.log(data)
+>>>>>>> 2c5d291bf21a1e784ae649a4877d4d1e13d06b17
         return data;
 
     } catch(error){
